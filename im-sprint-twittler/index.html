@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>'twittler'</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="data.js"></script>
+</head>
+<body>
+  <div id="greeting">어서오세요</div>
+  <div id="userinfo">
+    <div>
+      <img src="index.png" width="50px"
+    </div>
+    <div>UserName&nbsp;&nbsp;
+      <input type ="text" placeholder="아이디를 입력하세요">
+    </div>
+    <div>Comment&nbsp;&nbsp;&nbsp;&nbsp;
+      <textarea id="new-content" placeholder="코멘트를 입력하세요"></textarea>
+    </div>
+    <div>
+      <input type="button" id="tweet" value="Tweet">
+    </div>
+    <br><br>
+  </div>
+  <div id="check">
+    <br>
+    <input type="button" id="check-tweet" value="check New Tweet">
+    <br><br><br>
+  </div>
+  <div>
+    <div id="board">
+      <br><br>
+      <ul id="tweet-board">
+        <br><br>
+        <li class="tweet-list">
+          <div class="username">Kim*****</div>
+          <div class="content">집에 가고 싶다아아</div>
+          <span class="date">2021-08-03 22:00:01</span>
+        </li>
+        <br><br><br>
+        <li class="tweet-list">
+          <div class="username">Park*****</div>
+          <div class="content">저녁 뭐먹지?</div>
+          <span class="date">2021-08-03 22:01:21</span>
+          </li>
+          <br><br><br>
+          <li class="tweet-list">
+            <div class="username">Lee*****</div>
+            <div class="content">더워 죽겠다아아</div>
+            <span class="date">2021-08-03 22:03:43</span>
+          </li>
+      </ul>
+    </div>
+  
+  </div>
+</body>
+</html>
